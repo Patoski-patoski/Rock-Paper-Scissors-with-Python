@@ -62,7 +62,7 @@ def chess():
         
     if winner(picked, CPU_picked):
 
-        return "You won"
+        return "Player won"
     return "CPU won"
 
 def winner(picked, CPU_picked):
